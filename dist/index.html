@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.css"
+        integrity="sha512-qveKnGrvOChbSzAdtSs8p69eoLegyh+1hwOMbmpCViIwj7rn4oJjdmMvWOuyQlTOZgTlZA0N2PXA7iA8/2TUYA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Christmas-tree</title>
+<script defer src="app.js"></script></head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <nav class="nav-bar">
+                <a class="logo" id="logo-start-btn"></a>
+                <a href="#" class="switch-main-page" id="main-btn">Toys</a>
+                <a href="#" class="switch-favorites-page" id="fav-btn">Christmas tree</a>
+            </nav>
+            <div class="select">
+                <span id="selected-toys">0</span>
+            </div>
+        </div>
+    </header>
+    <div id="page-container">
+    </div>
+
+    <div class="page main-page hide" data-page="mainPage">
+        <div class="container">
+            <main class="main">
+                <div class="main-container">
+                    <h1>Toys</h1>
+                    <div class="card-container"></div>
+                    <p class="hide" id="filter-warning">Sorry, no matches found</p>
+                </div>
+            </main>
+        </div>
+
+    </div>
+    <footer>
+    </footer>
+</body>
+
+</html>
